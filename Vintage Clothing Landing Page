@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="vintagelko.css" rel="stylesheet"/>
+    <title>Vintage</title>
+</head>
+<body>
+<div id="container">
+        <nav id="header">
+      <div id="logo">
+            <img src="C:\Users\hp\Downloads\Screenshot (58)-modified.png">
+      </div>
+               <!--NAVIGATION BUTTONS-->
+        <ul>
+            <li><a href="#welcome">Welcome</a></li>
+            <li><a href="#button">Catalog</a></li>
+            <li><a href="#order">Order</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div id="welcome">
+        <div id="greeting">
+        <h3 class="glow">Welcome to Vintage Clothing!</h3>
+        <p>Your one stop destination to a plethora of clothing options to choose from and wear your favorite ones everyday.</p>
+        </div>
+        <div id="msg1">
+            <h3>BestSellers :-</h3>
+            <div id="list_one">
+          <ul class="list_one">
+            <li>Kurtis</li>
+            <li>Lehengas</li>
+            <li>Anarkalis</li>
+          </ul>
+          </div>
+          <div id="list_two">
+          <ul class="list_two"> 
+            <li>Gowns</li>
+            <li>Shararas</li>
+            <li>Dupatta</li>
+          </ul>
+          </div>
+        </div>
+        <div id="msg2">
+           <h3>We also offer :-</h3>
+           <div id="list_three">
+            <ul class="list_three">
+             <li>Men's Kurta</li>
+             <li>Kidswear</li>
+             <li>PartyWears</li>
+            </ul>
+           </div>
+           <div id="list_four">
+            <ul class="list_four">
+              <li>Men's Trousers</li>
+              <li>Cloth Fabrics</li>
+              <li>Bulk Orders</li>
+            </ul>
+           </div>
+        </div>
+      <!---WELCOME PAGE ENDS-->
+    </div>
+    <!--CATALOG SECTION-->
+    <div class="button">
+    <button id="button">
+       <h2>Our Catalog</h2>
+    </button>
+    </div>
+    <div id="catalog">
+      <div class="items">
+         <img src="https://assets0.mirraw.com/images/8796572/image_small.jpeg?1615803171">
+         <p>Ada cotton black embroidered</p>
+         <div id="price">Price : INR 1699/-</div>
+         <button id="orderbtn"><h3>Order Now</h3></button>
+        </div> 
+      <div class="items">
+        <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/1/a131880_4.jpg?rnd=20200526195200">
+        <p>Black Faux Georgette with slip</p>
+        <div id="price">Price : INR 1990/-</div>
+        <button id="orderbtn"><h3>Order Now</h3></button>
+      </div>
+      <div class="items">
+        <img src="https://cdn.vibecity.in/providers/60deec126c5e470010215e97/blue-chikankari-kurti-with-golden-mukesh-work.jpeg">
+        <p>Blue Chikankari with golden</p>
+        <p>mukesh work</p>
+        <div id="price">Price : INR 2350/-</div>
+        <button id="orderbtn"><h3>Order Now</h3></button>
+      </div>
+      <div class="items">
+        <img src="https://meenakshilucknowchikan.com/storage/media/qaQj69kUaYQHjLD0GA5BS0KCnZgR3dN3Jtq5J5RI.jpg">
+        <p>Handcrafted Chikankari V-Neck</p>
+        <div id="price">Price : INR 2100/-</div>
+        <button id="orderbtn"><h3>Order Now</h3></button>
+      </div>
+                                 <!--ROW 2-->
+      <div class="items">
+        <img src="https://assets.ajio.com/medias/sys_master/root/20220812/7asE/62f56eccf997dd03e2402130/-473Wx593H-464005529-blue-MODEL.jpg">
+        <p>Hand embroidered Blue</p>
+        <p>Georgette</p>
+        <div id="price">Price : INR 1999/-</div>
+        <button id="orderbtn"><h3>Order Now</h3></button>
+       </div> 
+      <div class="items">
+        <img src="https://ebachikan.com/wp-content/uploads/2021/07/white-and-black-chikan-kurti.jpg">
+        <p>White and Black Chikan</p>
+        <p>Georgette Kurti</p>
+        <div id="price">Price : INR 4999/-</div>
+        <button id="orderbtn"><h3>Order Now</h3></button>
+       </div> 
+      <div class="items">
+        <img src="https://i0.wp.com/aykez.com/wp-content/uploads/2021/01/ezgif.com-gif-maker-11.jpg">
+        <p>Premium Cotton Silk</p>
+        <p>Chikankari Dupatta</p>
+        <div id="price">Price : INR 2990/-</div>
+        <button id="orderbtn"><h3>Order Now</h3></button>
+       </div> 
+      <div class="items">
+        <img src="https://cdn.shopify.com/s/files/1/0425/3990/9273/products/184_1200x1200.jpg?v=1645191380">
+        <p>Dreamy Georgette</p>
+        <p>Chikankari Sharara</p>
+        <div id="price">Price : INR 2990/-</div>
+        <button id="orderbtn"><h3>Order Now</h3></button>
+       </div> 
+      </div>
+    <div id="order">
+       <h2>To Know More About Products and Related Enquiries Kindly Reach Us Out Via :-</h2>
+    </div>
+</div>
+</body>
+</html>
+------------------------------------------------------------------  CSS-------------------------------------------------------------------------------------------------
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#container
+{
+    height: 2000px;
+    width: 100%;
+    margin: auto;
+    background-color: aqua;
+}
+#logo img
+{
+    width: 75px;
+    height: 75px;
+    display: block;
+    margin-left: 50px;
+    margin-top: 1.25em;
+}
+#header
+{
+    display: flex;
+    flex-direction: row;
+   background-color: #fff;
+    background-size: 100% 100%;
+}
+#header
+{
+    height: 110px;
+}
+#header ul
+{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    margin-top: 2.5em;
+}
+#header ul li a{
+    text-decoration: none;
+    color: goldenrod;
+    margin-left: 45px;
+    font-size: 1.5vw;
+    text-shadow: 2px 2px black;
+}
+#header ul li a:hover
+{
+    border-bottom: 2px inset black;
+}
+/*WELCOME SECTION*/
+#welcome
+{
+    background-image:url("https://i.pinimg.com/550x/a4/4e/3d/a44e3d6c80ab71d5b92587ab0895fc58.jpg");
+  background-size: 100% 100%;
+  height: 400px;
+}
+#greeting
+{
+    height: 200px;
+    border: 2px inset black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(139, 140, 142, 0.61)
+}
+#greeting p{
+    font-weight:bolder;
+    font-size: 18px;
+    color:rgb(39, 59, 156, 0.83);
+    animation: color-change 4s infinite;
+    font-style: italic;
+}
+#greeting h3{
+    color: whitesmoke;
+    font-size:x-large;
+    margin-bottom: 1.5em;
+}
+.glow
+{
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+      }
+    }
+#msg1,#msg2
+{
+    width: 30%;
+    font-weight: bold;
+    background-color: #262626;
+    color: white;
+    border: 2px inset black;
+    float: left;
+    opacity: 0.4;
+    transition: width 0.8s,height 0.8s,font-size 0.8s;
+    border-radius: 12px;
+}
+#msg1:hover{
+    width: 35%;
+    /*height: 20%;*/
+    /*height: 15%*/
+    /*font-size: 20px;*/
+    font-size: 1.2vw;
+    cursor: pointer;
+    opacity: 0.8;
+} 
+#msg1 h3,#msg2 h3
+{
+    text-align: center;
+    margin-bottom: 1em;
+}
+#msg1 ul li,#msg2 ul li
+{
+    list-style: none;
+    margin-bottom: 1em;
+}
+#list_two,#list_four
+{
+    float: right;
+    margin-right: 1em;
+    /*media query lagana badd me*/
+}
+#list_one,#list_three
+{
+    float: left;
+    margin-left: 1em;
+     /*media query lagana badd me*/
+}  
+#msg2
+{
+    float: right;
+}
+#msg2:hover{
+    /*top:50px;*/
+    right: 20px;
+    position: relative;
+    cursor: pointer;
+    opacity: 0.8;
+    width: 35%;
+    /*font-size: 20px;*/
+    font-size: 1.2vw;
+}
+#msg1,#msg2,#button
+{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 7s ease infinite;
+}
+  @keyframes color-change {
+    0% { color: rgba(35, 57, 165, 0.83); }
+    50% { color: whitesmoke; }
+    100% { color: rgba(39, 59, 156, 0.83); }
+  }
+  @keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+@media(max-width: 679px)
+{
+    #header ul li a
+    {
+        margin-left: 15px;
+        margin-top: 3em;
+    }
+    #logo img
+    {
+        width: 20vw;
+        object-fit: fill;
+    }
+}
+.button
+{
+    background-image: url("https://image.shutterstock.com/shutterstock/photos/1487415578/display_1500/stock-photo-seamless-horizontal-polka-dots-pattern-for-print-1487415578.jpg");
+    background-size: 100% 100%;
+}
+#button
+{
+    display: block;
+    height: 50px;
+    width: 200px;
+    margin-top: 2em;
+    background-color:rgba(39, 59, 156, 0.83);
+    color: white;
+    border-radius: 8px;
+    padding: auto;
+    margin: 1em auto;
+    overflow: hidden;
+}
+#catalog
+{
+    height: 900px;
+    background-color: gainsboro;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    justify-items: center;
+    overflow: hidden;
+}
+.items
+{
+    border: 5px inset whitesmoke;
+    background-color: burlywood;
+    margin-top: 2em;
+    height: 400px;
+    border-radius: 10px;
+}
+.items img
+{ /*hover effects daal dena*/
+   width: 200px;
+   height: 200px;
+   transition: width 0.5s, height 0.5s;
+}
+#price
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 20px;
+    width: 150px;
+    background-color: grey;
+    color: silver;
+    font-weight: bolder;
+    margin-top: 0.5em;
+    margin-left: 1.5em;
+    border-radius: 10px;
+}
+#orderbtn
+{
+    display: block;
+    height: 20px;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 4em;
+    color: white;
+    background-color: #23a6d5;
+    border: 3px #23a6d5;
+    border-radius: 15px;
+}
+.items img:hover
+{
+   height: 220px;
+   width: 220px;
+   cursor: grab;
+   margin-bottom: 20px;
+}
+.items #orderbtn:hover
+{
+    opacity: 0.5;
+    cursor: pointer;
+}
+/*Order Section*/
+#order
+{
+    width: 100%;
+    height: 300px;
+    background-color:bisque;
+    overflow: hidden;
+}
+#order h2
+{
+    margin-top: 2.6em;
+    text-align: center;
+}
+@media (max-width: 805px)
+{
+   #catalog
+   {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+   }
+}
+@media (max-width: 401px)
+{
+   #catalog
+   {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-items: center;
+   }
+}
+@media (max-width: 814px)
+{
+    #msg1,#msg2
+    {
+        font-size: 12px;
+    }
+    #catalog
+    {
+        height: 1000px;
+    }
+    #welcome
+    {
+        height: 330px;
+    }
+}
+@media (max-width: 614px)
+{
+    #welcome
+    {
+        height: 300px;
+    }
+    #msg1,#msg2
+    {
+        font-size: 10px;
+    }
+}
+@media (max-width: 514px)
+{
+    #welcome
+    {
+        height: 265px;
+    }
+    #msg1,#msg2
+    {
+        font-size: 6px;
+    }
+}
